@@ -8,5 +8,7 @@ import scrapy
 
 class CrawlAmazonItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    book_name = scrapy.Field()
+    book_author = scrapy.Field()
+    book_price = scrapy.Field()
+    book_image_link = scrapy.Field()
